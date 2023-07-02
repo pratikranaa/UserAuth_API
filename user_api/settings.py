@@ -155,11 +155,3 @@ EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=True, cast=bool)
 
-
-# Email configuration
-# EMAIL_BACKEND = config('EMAIL_BACKEND')
-# EMAIL_HOST = config('EMAIL_HOST') # mail service smtp
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
-# EMAIL_USE_TLS = True
